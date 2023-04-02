@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Quotes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading">Anime Quotes</h1>
+    <form action="/anime" method="get" id="form">
+        <input type="text" name="title" placeholder="Anime Name" id="animename">
+        <br/>
+        <button type="submit" id="button">Submit</button>
+    </form> 
+
+    <!-- <div id="output"> -->
+        <h2 id="anime"> <%=locals.Anime%> <%= locals.animeName %> </h2>
+        <h3 id="character"> <%=locals.Character%> <%= locals.animeCharacter %></h3>
+        <p id="quote"> <%=locals.Quote%>  <%= locals.animeQuote %> </p>
+    <!-- </div>  -->
+    
+    
+</body>
+</html>

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+        background: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700138810.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        /* opacity: 0.9; */
+}
+body{
+    opacity: 1.9;
+}
+
+#heading{
+    font-family: 'Lobster', cursive;
+    font-size: 88px;
+    color: #00ff6b;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#form{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#animename{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #00ff6b;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#button{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#output{
+    text-align: center;
+    background-color: #fff;
+}
+
+#anime{
+    text-align: center;
+    font-size: 80px;
+    color: #af80de;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#character{
+    text-align: center;
+    font-size: 80px;
+    color: #af80de;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#quote{
+    text-align: center;
+    font-size: 80px;
+    color: #af80de;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
